@@ -31,7 +31,7 @@ colorSelector.addEventListener("change", e => {
     const items = blocksContainer.querySelectorAll(".item");
 
     for (let i = 0; i < items.lenght; i++) {
-        colorTheBlock(items[0], color);
+        colorTheBlock(items[i], color);
     }
     
 });
